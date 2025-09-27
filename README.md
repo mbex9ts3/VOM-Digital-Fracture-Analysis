@@ -1,6 +1,6 @@
-# Polyline Mapper - Modular Structure
+# trace_mapper
 
-This polyline mapper has been refactored into a modular structure for better maintainability and organization.
+A Python implemented textured mesh editor for the analysis of fractures from virtual outcrop models. 
 
 ## File Structure
 
@@ -156,4 +156,5 @@ Each module includes comprehensive error handling:
 - Graceful fallbacks for cursor setting
 - Safe mode transitions
 - Detailed debugging output
+
 - Recovery from invalid states
