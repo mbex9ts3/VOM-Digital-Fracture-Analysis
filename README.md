@@ -89,7 +89,9 @@ polyline_mapper/
 pip install pyvista numpy
 
 # Run the application
-python polyline_mapper.py
+import polyline_mapper
+visualizer = polyline_mapper.InteractiveMeshVisualizer()
+visualizer.run()
 ```
 
 ## Code Architecture Benefits
@@ -158,3 +160,4 @@ Each module includes comprehensive error handling:
 - Detailed debugging output
 
 - Recovery from invalid states
+
